@@ -1,4 +1,6 @@
 import Ember from 'ember';
+import getModel from 'npm:amelisa/lib/react/getModel'; // jshint ignore:line
+import amelisaMongo from 'npm:amelisa/mongo'; // jshint ignore:line
 import Resolver from './resolver';
 import loadInitializers from 'ember-load-initializers';
 import config from './config/environment';
